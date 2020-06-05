@@ -11,7 +11,6 @@
 		3CE6F886248833BA00EB8899 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6F885248833BA00EB8899 /* SceneDelegate.swift */; };
 		3CE6F888248833BA00EB8899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6F887248833BA00EB8899 /* ViewController.swift */; };
 		3CE6F88B248833BA00EB8899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE6F889248833BA00EB8899 /* Main.storyboard */; };
-		3CE6F88E248833BA00EB8899 /* uncodegem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6F88C248833BA00EB8899 /* uncodegem.xcdatamodeld */; };
 		3CE6F890248833C100EB8899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE6F88F248833C100EB8899 /* Assets.xcassets */; };
 		3CE6F893248833C100EB8899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE6F891248833C100EB8899 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -22,7 +21,6 @@
 		3CE6F885248833BA00EB8899 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3CE6F887248833BA00EB8899 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CE6F88A248833BA00EB8899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3CE6F88D248833BA00EB8899 /* uncodegem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = uncodegem.xcdatamodel; sourceTree = "<group>"; };
 		3CE6F88F248833C100EB8899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CE6F892248833C100EB8899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CE6F894248833C100EB8899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 				3CE6F88F248833C100EB8899 /* Assets.xcassets */,
 				3CE6F891248833C100EB8899 /* LaunchScreen.storyboard */,
 				3CE6F894248833C100EB8899 /* Info.plist */,
-				3CE6F88C248833BA00EB8899 /* uncodegem.xcdatamodeld */,
 			);
 			path = uncodegem;
 			sourceTree = "<group>";
@@ -142,7 +139,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CE6F888248833BA00EB8899 /* ViewController.swift in Sources */,
-				3CE6F88E248833BA00EB8899 /* uncodegem.xcdatamodeld in Sources */,
 				3CE6F884248833BA00EB8899 /* AppDelegate.swift in Sources */,
 				3CE6F886248833BA00EB8899 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,7 +285,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5QYYT2D37;
 				INFOPLIST_FILE = uncodegem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +304,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5QYYT2D37;
 				INFOPLIST_FILE = uncodegem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,19 +340,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3CE6F88C248833BA00EB8899 /* uncodegem.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3CE6F88D248833BA00EB8899 /* uncodegem.xcdatamodel */,
-			);
-			currentVersion = 3CE6F88D248833BA00EB8899 /* uncodegem.xcdatamodel */;
-			path = uncodegem.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3CE6F878248833BA00EB8899 /* Project object */;
 }
